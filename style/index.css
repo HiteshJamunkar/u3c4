@@ -1,0 +1,31 @@
+body {
+    background-color: #fbeccd;
+  }
+  
+  #page {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 15px;
+    gap: 30px;
+  }
+  
+  #sidebar {
+    width: 100%;
+  }
+  
+  #countries div {
+    font-size: 20px;
+    margin: 15px 0px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(11, 170, 170);
+  }
+  
+  #countries div:hover {
+    color: rgb(13, 48, 204);
+  }
+  
+  #results {
+    background: white;
+    padding-left: 10px;
+  }
